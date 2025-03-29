@@ -30,10 +30,7 @@ let package = Package(
                 .headerSearchPath("include/corecrypto")
             ],
             linkerSettings: [
-                .unsafeFlags([
-                    "-Xlinker",
-                    "Dependencies/libcorecrypto_static.a"
-                ])
+                // .unsafeFlags(["-Xlinker"])
             ]
         ),
         .testTarget(
