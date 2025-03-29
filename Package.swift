@@ -32,7 +32,7 @@ let package = Package(
             linkerSettings: [
                 .unsafeFlags([
                     "-Xlinker",
-                    "./Dependencies/libcorecrypto_static.a"
+                    "Dependencies/libcorecrypto_static.a"
                 ])
             ]
         ),
